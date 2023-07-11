@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="FlyAway">
+<test name="FlyAway Login" >
+<parameter name="email" value="ojasvi.pratap17@gmail.com"></parameter>
+<parameter name="pwd" value="123456789"></parameter>
+<classes>
+<class name="stepDefinition.testNG" />
+</classes>
+</test>
+</suite>
